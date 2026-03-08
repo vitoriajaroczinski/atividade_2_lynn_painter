@@ -1,0 +1,114 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(168, 200, 240);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+#icon {
+    width: 62px;
+}
+
+#links {
+    padding-right: 10px;
+}
+
+#navbar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(246, 231, 161);
+    color: rgb(180, 80, 120);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.noticias {
+    display: flex;
+    text-align: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: rgb(245, 235, 250);
+    padding: 6px;
+    margin: 40px;
+    border-radius: 40px;
+
+}
+
+.noticia {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(180, 80, 120);
+    background-color: white;
+    border: 4px solid rgb(247, 200, 224);
+}
+
+.img_noticia {
+      width: 250px;
+  height: 300px;
+  object-fit: cover;
+}
+footer {
+    background-color: rgb(7, 49, 98);
+    padding: 10px;
+    text-align: center;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+
+.posicao{
+    margin: 40px;
+    padding: 20px;
+    border-radius: 40px;
+    background-color: rgb(245, 235, 250);
+    color: rgb(180, 80, 120);
+}
+
+.titulo{
+    text-align: center;
+}
+
+.personagens{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.personagens_img{
+    width: 180px;
+    height: 220px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.personagem{
+    text-align: center;
+}
+.fixo{
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+}
+
+.fixo img{
+    width: 60px;
+}
+
+footer{
+    background-color: rgb(90, 50, 110);
+    color: white;
+    padding: 30px;
+    margin-top: 40px;
+    text-align: center;
+}
+
+footer ul{
+    list-style: none;
+    padding: 0;
+}
+
+footer li{
+    margin: 6px;
+}
